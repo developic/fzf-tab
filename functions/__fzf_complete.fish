@@ -30,8 +30,6 @@ fish -c "
         '"$fzf_tab_file"' \$f
     else if test -e \$f
         '"$fzf_tab_dir"' \$f
-    else
-        echo \$f
     end
 "
 '
